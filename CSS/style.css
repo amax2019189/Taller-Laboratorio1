@@ -49,3 +49,8 @@ html{
     transition: .5s;
     text-decoration: none;
 }
+
+.header header nav ul li a:hover{
+    color: #F9EFDB;
+}
+
