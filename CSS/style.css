@@ -108,6 +108,7 @@ html{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px 0;
+    text-align: justify;
 }
 
 .quemegusta .contenedor-seccion .contenedor-img{
@@ -150,6 +151,11 @@ html{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px 0;
+    text-align: justify;
+}
+
+.porque .contenedor-seccion p{
+    text-align: justify;
 }
 
 /*Estilo para el apartado de tiempo dedicado*/
@@ -180,4 +186,8 @@ html{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px 0;
+}
+
+.tiempo .contenedor-seccion p{
+    text-align: justify;
 }
