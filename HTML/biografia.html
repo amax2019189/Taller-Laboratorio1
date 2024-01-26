@@ -16,12 +16,14 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#datos">Datos Personales</a></li>
-                    <li><a href="#quemegusta">Que me gusta</a></li>
-                    <li><a href="#porque">Por que me Gusta</a></li>
-                    <li><a href="#tiempo">Tiempo Dedicado</a></li>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobremi">Sobre Mi</a></li>
+                    <li><a href="#skills">Tecnologías</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                     <a>|</a>
                     <li><a href="/index.html">Página Principal</a></li>
+                    <li><a href="/HTML/pagina.html">Página</a></li>
                 </ul>
             </nav>
         </header>
@@ -90,11 +92,100 @@
                     </div>
                 </div>
             </div>
-            <button>
+            <button href="">
                 Descargar CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
         </div>
     </section>
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Tecnologias</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Lenguajes Conocidos</h3>
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Otros Conocimientos</h3>
+                    <div class="skill">
+                        <span>Filmora</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Davinci Resolve</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="proyectos" id="proyectos">
+        <div class="contenido-seccion">
+            <h2>Proyectos</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="/IMG/programa1.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyectos Trabajados</h3>
+                        <p>Fotosgrafía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="/IMG/programa2.png" alt="">
+                    <div class="overlay">
+                        <h3>Proyectos Trabajados</h3>
+                        <p>Fotosgrafía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <center>
+        <section class="contacto" id="contacto">
+            <h2 class="heading">Contacto <span>Personal</span></h2>
+
+            <form action="" method="POST">
+                <div class="input-box">
+                    <input type="text" placeholder="Nombre Completo">
+                    <input type="email" placeholder="correo">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Numero Telefonico">
+                    <input type="text" placeholder="Asunto">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Su Mensaje"></textarea>
+                <button>
+                    Enviar <i class="fa-regular fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </form>
+        </section>
+    </center>
+
 </body>
 </html>
