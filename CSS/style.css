@@ -51,3 +51,65 @@ html{
 .header header nav ul li a:hover{
     color: #F9EFDB;
 }
+
+.datos{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(/IMG/Fondo.png);
+    background-size: cover;
+    height: 40vh;
+    color: #638889;
+    display: flex;
+    align-items: center;
+}
+
+.datos .contenedor-banner{
+    padding: 20px;
+    background-color: #9DBC98;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.datos .contenedor-banner h1{
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Arial';
+}
+
+.quemegusta{
+    background-color: #EBD9B4;
+    color: #638889;
+    padding: 35px 20px;
+}
+
+.quemegusta .contenedor-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.quemegusta h2{
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    text-justify: auto;
+}
+
+.quemegusta h3{
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px 0;
+    text-justify: auto;
+}
+
+.quemegusta .contenedor-seccion .contenedor-img{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.quemegusta .contenedor-seccion .contenedor-img .medidas{
+    width: 300px;
+    height: 200px;
+}
