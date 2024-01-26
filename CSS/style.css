@@ -1,3 +1,4 @@
+/*Estilos en general*/
 *{
     box-sizing: border-box;
     font-family: 'Work Sans';
@@ -9,6 +10,7 @@ html{
     scroll-behavior: smooth;
 }
 
+/*Estilo para el encabezado*/
 .header{
     background: #638889;
     position: fixed;
@@ -52,6 +54,8 @@ html{
     color: #F9EFDB;
 }
 
+/*Estilo para los datos*/
+
 .datos{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)), url(/IMG/Fondo.png);
     background-size: cover;
@@ -76,9 +80,11 @@ html{
     font-family: 'Arial';
 }
 
+/*Estilo para el apartado de que me gusta*/
+
 .quemegusta{
     background-color: #EBD9B4;
-    color: #638889;
+    color: black;
     padding: 35px 20px;
 }
 
@@ -88,6 +94,7 @@ html{
 }
 
 .quemegusta h2{
+    color: #9DBC98;
     font-size: 48px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -96,11 +103,11 @@ html{
 }
 
 .quemegusta h3{
+    color: #638889;
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     padding: 20px 0;
-    text-justify: auto;
 }
 
 .quemegusta .contenedor-seccion .contenedor-img{
@@ -112,4 +119,65 @@ html{
 .quemegusta .contenedor-seccion .contenedor-img .medidas{
     width: 300px;
     height: 200px;
+    margin-right: 20px;
+}
+
+/*Estilo para el apartado de por que me gusta*/
+
+.porque{
+    background-color: #F9EFDB;
+    color: black;
+    padding: 35px 20px;
+}
+
+.porque .contenedor-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.porque h2{
+    color: #9DBC98;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    text-justify: auto;
+}
+
+.porque h3{
+    color: #638889;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/*Estilo para el apartado de tiempo dedicado*/
+
+.tiempo{
+    background-color: #EBD9B4;
+    color: black;
+    padding: 35px 20px;
+}
+
+.tiempo .contenedor-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.tiempo h2{
+    color: #9DBC98;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    text-justify: auto;
+}
+
+.tiempo h3{
+    color: #638889;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 20px 0;
 }
